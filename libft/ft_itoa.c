@@ -81,13 +81,11 @@ int	number_of_discharges(int n, int i)
 char	*ft_itoa(int n)
 {
 	int		i;
-	int		number;
 	char	*result;
 	int		flag;
 
 	i = 0;
 	flag = 0;
-	number = n;
 	if (n == 0)
 		i++;
 	i = number_of_discharges(n, i);

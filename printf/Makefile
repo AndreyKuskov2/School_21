@@ -19,7 +19,7 @@ AR 		= ar -rcs
 RM 		= rm -f
 
 .c.o:
-		${GCC} -c $< -o ${<:.c=.o} -I${HEADER}
+		${GCC} -c $< -o ${<:.c=.o} 
 
 ${NAME}:	${MAN_OBJS} ${HEADER}
 		${AR} ${NAME} ${MAN_OBJS}
